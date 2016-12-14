@@ -1,0 +1,7 @@
+<platform name="android">
+	<icon src="images.png" density="ldpi" />
+	<icon src="images.png" density="mdpi" />
+	<icon src="images.png" density="hdpi" />
+	<icon src="images.png" density="xhdpi" />
+ </platform>
+ <name>Amanda ♥</name>
