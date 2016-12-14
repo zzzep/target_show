@@ -1,9 +1,24 @@
 <html>
 	<head>
 		<script src="jquery.min.js"></script>
+		<style>
+			#instructions{
+				width: 100px;
+				height: 100px;
+
+				position: absolute;
+				top:0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+
+				margin: auto;
+			}
+		</style>
 	</head>
 	<body>
-		<div id="mark" style="color:red;">Te Amo ♥</div>
+		<div id='instructions' >Toque <br>Na tela</div>
+		<div id="mark" style="color:red;width:70px;">Te Amo ♥</div>
 		<script>
 			$('#mark').hide();
 			$('body').click(function(e){
