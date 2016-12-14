@@ -1,7 +1,16 @@
-<platform name="android">
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="0.0.1">
+	<name>Amanda ♥</name>
+	<description>♥</description>
+	<author email="zzzep@hotmail.com" href="http://phonegap.com">
+		Zepp
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+	<platform name="android">
 	<icon src="images.png" density="ldpi" />
 	<icon src="images.png" density="mdpi" />
 	<icon src="images.png" density="hdpi" />
 	<icon src="images.png" density="xhdpi" />
  </platform>
- <name>Amanda ♥</name>
+</widget>
